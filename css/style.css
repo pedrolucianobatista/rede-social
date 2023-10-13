@@ -1,16 +1,8 @@
 @charset "utf-8";
 
-html {
-    height: 100%;
-}
-
 body {
-    margin: 0px;
-    padding: 0px;
     background-image: url(../imagens/fundo-madeira.jpg);
     background-size: 100% 100%;
-    background-color: gray;
-    height: 100%;
 }
 
 #logo {
@@ -26,14 +18,14 @@ body {
 }
 
 #container {
-    background-image: url(../imagens/frame-iphone.png);
+    /* background-image: url(../imagens/frame-iphone.png); */
     position: relative;
     height: 96vh;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #conteudo {
-    background-image: url(../imagens/tela-home.jpg);
+    /* background-image: url(../imagens/tela-home.jpg); */
     background-size: 100% 100%;
     position: absolute;
     left: 50%;

@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apenas testando funcionalidades</title>
     <style>
-        img {
-            width: 50PX;
-            height: 50px;
-            display: block;
-            border-radius: 25px;
-            margin-bottom: 20px;
+        #container {
+            background-image: url("./imagens/frame-iphone.png");
+            position: relative;
+            height: 96vh;
         }
 
-        #teste {
-            float: right;
+        #conteudo {
+            background-image: url("./imagens/tela-home.jpg");
+            background-size: 100% 100%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>    
 <body>
     <!-- Aplicar espaçamento e border radius eu acho -->
-    <div id="teste">
-        <img src="./imagens/logo-home.jpg" alt="">
-        <img src="./imagens/logo-youtube.jpg" alt="">
-        <img src="./imagens/logo-github.jpg" alt="">
-        <img src="./imagens/logo-instagram.jpg" alt="">
-        <img src="./imagens/logo-twitter.jpg" alt="">
-        <img src="./imagens/logo-facebook.jpg" alt="">
+    <div id="container">
+        <div id="conteudo">
+        </div>
     </div>
 </body>
 </html>
