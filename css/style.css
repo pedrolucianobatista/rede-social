@@ -18,17 +18,23 @@ body {
 }
 
 #container {
-    /* background-image: url(../imagens/frame-iphone.png); */
+    background-image: url(../imagens/frame-iphone.png);
     position: relative;
     height: 96vh;
     /* padding: 10px; */
 }
 
 #conteudo {
-    /* background-image: url(../imagens/tela-home.jpg); */
+    background-image: url(../imagens/tela-home.jpg);
     background-size: 100% 100%;
     position: absolute;
     left: 50%;
     top: 50%;   
     transform: translate(-50%, -50%);
 }
+
+h1 {
+    color: blue;
+}
+
+/* Última tentativa */
